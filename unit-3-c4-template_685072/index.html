@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <style>
+      #navbar{
+        width:100%;
+        height:60px;
+        background-color:#faccb5;
+        display:flex;
+        text-align: center;
+        
+      }
+      #sidebar{
+        width:200px;
+        height:400px;
+        background-color:#faccb5;
+      }
+      .header-center-input{
+        width:490%;
+        height:60%;
+        border-radius:20px;
+        
+      }
+      .header-center{
+        margin-left:10%;
+        display: flex;
+        flex-direction: column;
+        margin-top:20px;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>
+        <a href="/"> News App </a>
+      </h2>
+      <div class="header-center">
+        <input class="header-center-input" type="text" placeholder="search News">
+      </div>
+     
+    </div>
+
+    <div id="sidebar">
+        <h2>countries</h2>
+        <h2>
+          <a href="#">india</a>
+        </h2>
+        <h2>
+          <a href="#">china</a>
+        </h2>
+        <h2>
+          <a href="#">Russia</a>
+        </h2>
+
+        <h2>
+          <a href="#">Usa</a>
+        </h2>
+
+        <h2>
+          <a href="#">United Kingdom</a>
+        </h2>
+        
+        
+        
+        
+        
+
+    </div>
+    <!-- Give Navbar with id "navbar"  -->
+    <!-- Navbar will have input with id search_input and a link to home page i.e. index.html -->
+    <!-- Sidebar will have id "sidebar"  -->
+    <!-- Give link to top headlines of countries in sidebar with id as their country codes 
+    india :- in
+    china :- ch
+    usa :- us
+    uk : uk
+    Newzeland :- nz -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+  </body>
+</html>
+<script src="index.js">
+  
+</script>
